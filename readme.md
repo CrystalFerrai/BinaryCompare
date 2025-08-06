@@ -2,6 +2,8 @@
 
 Simple library for quickly comparing two files to determine of they are binary equal. Uses memory mapping to provide better performance than typical file reading.
 
+If you are seeking a command line tool for binary file comparison on Windows, check out [BComp](https://github.com/CrystalFerrai/BComp). It makes use of this library.
+
 ## Usage
 
 Only a single function is exported by the library:
